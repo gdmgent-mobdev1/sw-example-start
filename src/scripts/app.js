@@ -1,16 +1,7 @@
 import '../styles/main.css';
+import dv from '../images/dv.jpeg';
 
-const helloWorld = () => {
-  // get our app container
-  const app = document.getElementById('app');
-
-  // create a new DOM element
-  const element = document.createElement('div');
-  element.innerHTML = 'Hello World!';
-
-  // add to our app container
-  app.appendChild(element);
-};
-
-// start hellWorld app
-helloWorld();
+window.addEventListener('load', () => {
+  // set the dv image
+  document.getElementById('myImage').setAttribute('src', dv);
+});

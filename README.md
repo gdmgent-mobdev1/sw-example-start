@@ -1,4 +1,4 @@
-# 1920-mobdev1-code-template
+# The Service Workers Example (start)
 
 ## Included
 * SASS (and SCSS)
